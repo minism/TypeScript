@@ -3458,7 +3458,7 @@ declare namespace Tone {
    * number of items are in the array
    */
   class Sequence<T> extends Part {
-    constructor(callback: SequenceCallback<T, events: ReadonlyArray<T>, subdivision: Encoding.Time)
+    constructor(callback: SequenceCallback<T>, events: ReadonlyArray<T>, subdivision: Encoding.Time)
 
     /**
      * The subdivision of the sequence. This can only be set
